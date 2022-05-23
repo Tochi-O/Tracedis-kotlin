@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1067213737605",
+    "project_id": "tracedis",
+    "storage_bucket": "tracedis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067213737605:android:b0c2d4b3ebb915cb5763ec",
+        "android_client_info": {
+          "package_name": "com.example.tracedis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067213737605-ni6veca087kl3a82bj3k12tfiqj6jlva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tracedis",
+            "certificate_hash": "0d051606ed0e0dc71c7f04ec6fdc6b75b57f63b8"
+          }
+        },
+        {
+          "client_id": "1067213737605-9hafpajrb1tujpe2kocr5adct17e9bft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNEWBcGgHhcCJbIT_XZ8EbFUoX5VbV_Cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067213737605-9hafpajrb1tujpe2kocr5adct17e9bft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

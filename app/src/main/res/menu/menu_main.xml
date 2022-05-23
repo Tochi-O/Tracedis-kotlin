@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.kotlinoptionsmenu.MainActivity">
+
+    <item
+        android:id="@+id/action_trace"
+        android:orderInCategory="100"
+        android:title="Trace Contacts"/>
+    <item
+    android:id="@+id/action_messages"
+    android:orderInCategory="100"
+    android:title="Messages"/>
+<!--    <item-->
+<!--        android:id="@+id/action_track"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="Track Location"/>-->
+    <item
+    android:id="@+id/action_settings"
+    android:orderInCategory="100"
+    android:title="Logout"/>
+<!--    <item-->
+<!--        android:id="@+id/action_share"-->
+<!--        android:title="@string/action_share"-->
+<!--        app:showAsAction="never"/>-->
+<!--    <item-->
+<!--        android:id="@+id/action_exit"-->
+<!--        android:title="@string/action_exit"-->
+<!--        app:showAsAction="never"/>-->
+</menu>

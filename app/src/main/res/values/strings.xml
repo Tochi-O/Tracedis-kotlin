@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TraceDis</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fullname">Enter Fullname</string>
+    <string name="email">Enter email</string>
+    <string name="password">Enter password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="signed">sign up</string>
+    <string name="already_have_an_account_login">Already have an account login</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_in">Don\'t have an account, sign in</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="continue_text">CONTINUE</string>
+    <string name="permission_description">We need your location</string>
+    <string name="permssion_required">Permssion Required</string>
+    <string name="tap_on_my_location_button">Tap on my location button</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="reset">RESET</string>
+    <string name="distance">Distance</string>
+    <string name="time">Time</string>
+    <string name="share">Share</string>
+    <string name="result">%1$s km</string>
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="Viruses">
+        <item>Covid-19</item>
+        <item>Omnicron</item>
+        <item>Ebola</item>
+        <item>Delta</item>
+        <item>Flu</item>
+        <item>Measles</item>
+    </string-array>
+
+</resources>

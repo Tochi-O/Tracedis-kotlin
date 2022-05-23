@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        tools:context=".ui.MessagesActivity"
+        android:layout_height="match_parent">
+    <!--toolbar is one component which is necessary
+               because if we not use this then title is not shown
+               when project executed-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:popupTheme="@style/Widget.AppCompat.PopupMenu.Overflow" />
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:text="MESSAGES"-->
+<!--            android:textSize="30sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/cardview_dark_background"-->
+
+<!--            />-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/messagesrecyclerView"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"/>
+
+        <TextView
+            android:id="@+id/nomsgs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="NO MESSAGES"
+            android:textSize="30sp"
+            android:visibility="visible"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_dark_background"
+
+            />
+
+    </LinearLayout>
